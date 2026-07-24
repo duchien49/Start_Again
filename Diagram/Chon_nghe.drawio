@@ -1,0 +1,84 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="q7wvhKoMFRrpfuQpcBfJ">
+    <mxGraphModel dx="1042" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A4MmhOM6MxVXHIslgF27-1" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="490" width="570" x="220" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-14" edge="1" parent="A4MmhOM6MxVXHIslgF27-1" source="A4MmhOM6MxVXHIslgF27-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="A4MmhOM6MxVXHIslgF27-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-16" connectable="0" parent="A4MmhOM6MxVXHIslgF27-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0469" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-6" parent="A4MmhOM6MxVXHIslgF27-1" style="ellipse;whiteSpace=wrap;html=1;" value="Nâng cấp nghề" vertex="1">
+          <mxGeometry height="70" width="140" x="380" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-5" parent="A4MmhOM6MxVXHIslgF27-1" style="ellipse;whiteSpace=wrap;html=1;" value="Chọn nghề" vertex="1">
+          <mxGeometry height="70" width="140" x="65" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-4" parent="A4MmhOM6MxVXHIslgF27-1" style="ellipse;whiteSpace=wrap;html=1;" value="Mở nghề mới" vertex="1">
+          <mxGeometry height="70" width="140" x="370" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-9" edge="1" parent="A4MmhOM6MxVXHIslgF27-1" source="A4MmhOM6MxVXHIslgF27-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="A4MmhOM6MxVXHIslgF27-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-18" connectable="0" parent="A4MmhOM6MxVXHIslgF27-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0806" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-13" edge="1" parent="A4MmhOM6MxVXHIslgF27-1" source="A4MmhOM6MxVXHIslgF27-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;dashed=1;" target="A4MmhOM6MxVXHIslgF27-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-20" connectable="0" parent="A4MmhOM6MxVXHIslgF27-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0095" y="-6" as="geometry">
+            <mxPoint x="1" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-3" parent="A4MmhOM6MxVXHIslgF27-1" style="ellipse;whiteSpace=wrap;html=1;" value="Đổi nghề" vertex="1">
+          <mxGeometry height="70" width="140" x="65" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-7" edge="1" parent="A4MmhOM6MxVXHIslgF27-1" source="A4MmhOM6MxVXHIslgF27-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="A4MmhOM6MxVXHIslgF27-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-21" connectable="0" parent="A4MmhOM6MxVXHIslgF27-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-8" edge="1" parent="A4MmhOM6MxVXHIslgF27-1" source="A4MmhOM6MxVXHIslgF27-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="A4MmhOM6MxVXHIslgF27-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-22" connectable="0" parent="A4MmhOM6MxVXHIslgF27-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1424" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-11" edge="1" parent="A4MmhOM6MxVXHIslgF27-1" source="A4MmhOM6MxVXHIslgF27-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="A4MmhOM6MxVXHIslgF27-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-17" connectable="0" parent="A4MmhOM6MxVXHIslgF27-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0533" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-12" edge="1" parent="A4MmhOM6MxVXHIslgF27-1" source="A4MmhOM6MxVXHIslgF27-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="A4MmhOM6MxVXHIslgF27-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-19" connectable="0" parent="A4MmhOM6MxVXHIslgF27-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0327" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4MmhOM6MxVXHIslgF27-2" parent="A4MmhOM6MxVXHIslgF27-1" style="ellipse;whiteSpace=wrap;html=1;" value="Xem thông tin nghề" vertex="1">
+          <mxGeometry height="70" width="140" x="220" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
